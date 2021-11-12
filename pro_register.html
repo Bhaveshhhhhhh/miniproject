@@ -1,0 +1,164 @@
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bhaveshcss/pro.css">
+    <link rel="icon" href="favicon1.ico">
+    <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Add padding to containers */
+    .container {
+      padding: 18px;
+      background-color: rgb(123, 235, 255);
+      border: white; 
+    }
+    
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+    
+      background: #f1f1f1;
+      border: 2px solid rgb(0, 0, 0); 
+    }
+    
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+
+    .registerbtn {
+      background-color:rgb(255, 252, 52);
+      color: rgb(0, 0, 0);
+      padding: 16px 20px;
+      margin: 8px 0;
+      border:2px solid rgb(0, 0, 0);
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    .registerbtn:hover {
+      opacity: 1;
+    }
+    
+    form { 
+        border: 3px solid #f1f1f1; 
+    } 
+    .signin {
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    h1{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    body{
+    background-color: rgb(123, 235, 255);
+}
+
+.navbar {
+    background-color: rgb(255, 252, 52);
+    border-radius: 20px;
+    
+  }
+  img{
+    padding-bottom: 1%;
+    border-radius: 20px;
+}
+  
+.navbar :hover {
+    color: rgb(22, 22, 255);
+  }
+  
+.navbar ul {
+    overflow: auto;
+  }
+  
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 4px;
+  
+  }
+
+.navbar li a {
+    padding: 4px 4px;
+    text-decoration: none;
+    color: black;
+    font-size: 31px;
+  }
+   a{
+    size: 20px;
+     padding-top:  20%;
+    text-decoration: none;
+    margin: 10px 20px; 
+  }
+  a:hover{
+      color: white;
+  }
+ hr{
+    background-color:none;
+      border-style: none;
+      border-top-style: dotted;
+      border-color: rgb(0, 0, 0);
+      border-width: 5px;
+      height: 0px;
+      width: 5%;
+ }
+ p{
+    font-weight: normal;
+    font-size: 150%;
+    
+ }
+ h3{
+    font-weight: normal;
+    font-size: 200%;
+ }
+ label{
+    font-size: 150%;
+ }
+ .lfi{
+   margin-top: 3%;
+ }
+ 
+    </style>
+    </head>
+    <body>
+      <marquee><h1>Vehicle Investigation System</h1></marquee><br>
+        <center><h1>Register</h1></center>
+    <form action="/action_page.php">
+      <div class="container">
+        
+        <p>Please fill this form to create an account.</p>
+        
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        
+        <center><p>Applying<a href="#">Terms & Privacy</a></p></center>
+    
+        <button type="submit" class="registerbtn">Register</button>
+      </div>
+      
+      <div class="container log">
+        <center><p>Already have an account? <a href="pro_login.html">Login in</a></p></center>
+      </div>
+    </form>
+    
+    </body>
+    </html>
+    
